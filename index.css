@@ -4,10 +4,12 @@
 }
 body {
   background: #b6e3a9;
+  overflow-x: hidden;
 }
 
 .c {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
