@@ -6,6 +6,7 @@
 body {
   background: #b6e3a9;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .c {
