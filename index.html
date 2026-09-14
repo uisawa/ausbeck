@@ -7,9 +7,13 @@
   </head>
   <body>
     <div class="c">
-      <input class="b" placeholder="Username">
-      <input class="b" placeholder="Password">
+      <input id="username" class="b" placeholder="Username">
+      <input id="password" type="password" class="b" placeholder="Password">
       <button class="b">Login</button>
+      <p id="error" class="e"></p>
+      <script>
+        password.click = _ => error.innerHTML = "Wrong username or password.";
+      </script>
     </div>
   </body>
 </html>
