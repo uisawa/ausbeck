@@ -9,6 +9,10 @@ body {
   overflow-y: hidden;
 }
 
+button {
+  cursor: pointer;
+}
+
 .c {
   display: flex;
   flex-direction: column;
